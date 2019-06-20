@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 3) do
+ActiveRecord::Schema.define(version: 2) do
 
   create_table "networks", force: :cascade do |t|
     t.string "call_letters"
@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "genre"
     t.string "day"
     t.string "season"
-    t.integer "network_id"
   end
 
 end
